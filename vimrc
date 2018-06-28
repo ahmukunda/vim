@@ -25,7 +25,8 @@ set ttyfast
 set backspace=indent,eol,start
 set laststatus=2
 set number
-set noundofile
+set undofile
+set undodir=~/.vim/undodir
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
